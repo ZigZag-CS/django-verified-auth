@@ -1,0 +1,11 @@
+exclude .coveragerc
+exclude .flake8
+exclude .isort.cfg
+exclude .pre-commit-config.yaml
+exclude pytest.ini
+exclude requirements.txt
+exclude tox.ini
+include LICENSE
+include README.rst
+include setup.cfg
+prune tests
