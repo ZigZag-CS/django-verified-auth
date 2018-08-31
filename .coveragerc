@@ -1,0 +1,13 @@
+[paths]
+source =
+    src/verified_user
+    */site-packages/verified_user
+
+[run]
+branch = true
+parallel = true
+source = verified_user
+
+[report]
+show_missing = true
+precision = 2
